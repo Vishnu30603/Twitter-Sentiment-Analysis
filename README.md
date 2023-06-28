@@ -10,4 +10,14 @@ Several preprocessing steps are applied to clean and prepare the tweets. This in
 The dataset is split into a training set and a test set. The training set is used to train various models using the Bag of Words approach. The machine learning model is trained and evaluated based on its performance in predicting the labels of tweets in the test dataset. Evaluation metrics such as accuracy, precision, recall, and F1-score are calculated to assess the model's performance. In addition, k-fold cross-validation is applied, where the training set is divided into k subsets, and the model is trained and evaluated multiple times on different combinations of subsets. This helps to assess the model's performance more robustly and reduces the impact of random data splits.
 # Results
 The results obtained from the trained models are presented, including the evaluation metrics and any significant findings or observations. 
-
+# Dependencies
+The project relies on the following libraries:                                                                                          
+1.NumPy                                                                                                                                 
+2.Pandas                                                                                                                                
+3.Matplotlib                                                                                                                            
+4.Seaborn                                                                                                                               
+5.Scikit-learn                                                                                                                          
+6.Regular expressions                                                                                                                   
+7.Natural Language Toolkit                                                                                                              
+8.String                                                                                                                               
+Make sure to have these libraries installed before running the project.
